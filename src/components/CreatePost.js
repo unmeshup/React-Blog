@@ -1,6 +1,8 @@
 import { firestore } from '../firebase';
 import { useFormInput } from '../hooks';
 
+import './Button.css';
+
 function CreatePost() {
   const title = useFormInput('');
   const subTitle = useFormInput('');
