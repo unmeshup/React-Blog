@@ -64,7 +64,7 @@ function Home() {
     <div className="home">
       <BlogHeading>Tech Blog</BlogHeading>
       {/* <button class="createPostBtn">This is a button</button> */}
-      <div id="blog-by">Aakash</div>
+      <div id="blog-by">Unmesh</div>
 
       {posts.map((post, index) => (
         <Post className="post" key={`post-${index}`}>
